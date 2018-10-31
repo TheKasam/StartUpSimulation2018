@@ -1,0 +1,297 @@
+
+/* NavBar stuff */
+.navbar-custom{
+    background-color: lightgray;
+    border: 0px;
+}
+.navbar-left {
+
+  padding-left: 100px;
+  padding-top: 8%;
+  padding-right: 50px;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    background-color: #4A4A4A;
+    color: #FFC0CB;
+}
+
+
+#page-scroll{
+  color: black;
+  font-family: 'Gill Sans';
+  letter-spacing: 1px;
+}
+.page_scroll{
+  color: black;
+  font-family: 'Gill Sans';
+  letter-spacing: 1px;
+}
+
+#page-content {
+  padding-top: 50px;
+  background: F0DCEF;
+}
+
+.type-wrap{
+  text-align: left;
+  padding-top: 5%;
+  padding-left: 10%;
+  height: 250px;
+
+  letter-spacing: 3px;
+}
+
+:root {
+  --main-bg-color: brown;
+}
+#typed {
+    font-family: 'Gill Sans';
+    font-weight: 600;
+    color: black;
+    text-align: left;
+    font-size: 400%;
+    background-color: ;
+
+}
+#bob{
+  font-size: 0px;
+  height: 0px;
+  width: 0px;
+
+
+}
+@media only screen and (max-width: 801px) {
+  #bob{
+    font-size: 10px;
+    height: 200px;
+    width: 500px;
+  }
+  #about-body1-1{
+    display: none;
+    width: 0;
+    height: 0;
+    font-size: 0;
+  }
+  #about-body2{
+    width: 0px;
+    height: 0px;
+    display: none;
+  }
+  #typed4{
+  width: 0px;
+  height: 0px;
+  display: none;
+  }
+  #typed4-1{
+  width: 0px;
+  height: 0px;
+  display: none;
+  }
+  .row{
+    font-size: 10px;
+  }
+  .btn-signin{
+    margin-bottom: : -100px;
+  }
+}
+#typed2{
+  font-family: 'Gill Sans';
+  font-weight: 200;
+  color: black;
+  text-align: left;
+  font-size: 300%;
+  background-color: ;
+}
+#typed3{
+  font-family: 'Gill Sans';
+  font-weight: 200;
+  color: black;
+  text-align: left;
+  font-size: 200%;
+  background-color: ;
+}
+
+.intro-text1{
+  background-color: transparent;
+}
+.intro-text2{
+  background-color: transparent;
+  position: relative;
+  width: wrap;
+  bottom: 20px;
+}
+.intro-text3{
+  position: relative;
+  bottom: 30px;
+  background-color: transparent ;
+}
+#home {
+  text-align: center;
+    background: #94DCFF;
+  background-image: url('../img/home_background.svg');
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size: 40%;
+  overflow: visible;
+  background-attachment: fixed;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.btn-signin{
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 100;
+  background-color: #bf5700;
+  color: white;
+  letter-spacing: 1px;
+  font-size: 150%;
+  width:  120px;
+  height: auto;
+
+}
+#btn-sign-in{
+  text-align: left;
+  padding-left: 10%;
+  padding-top: 0;
+
+}
+
+
+#MISA-SVG{
+  width: 0;
+  display: none;
+  height: 0;
+}
+#typed4-1{
+  color: #BF5700;
+  font-family: "Gill Sans";
+  letter-spacing: 1px;
+  font-weight: 250;
+  font-size: 40px;
+
+}
+#typed4{
+  color: black;
+  font-family: "Lato";
+  letter-spacing: 1px;
+  font-weight: 210;
+    font-size: 45px;
+}
+.tagline{
+  padding-top: 3%;
+}
+
+.goTo-Page2{
+
+  width:100%;
+  height: 100px;
+  bottom: 0px;
+  position: absolute;
+  text-align: center;
+
+}
+.goTo-Page3{
+
+  width:100%;
+  height: 100px;
+
+  position: absolute;
+  text-align: center;
+  overflow: visible;
+
+}
+#about{
+
+
+  background: #6AAFFF;
+  background-image: url('../img/about-background.png');
+  background-attachment: fixed;
+  background-repeat:no-repeat;
+  background-position: 50%;
+  background-origin:content-box;
+  background-size: 41%;
+  overflow: visible;
+
+}
+#about-text{
+  padding-top: 4%;
+  padding-bottom: 3%;
+}
+#about-header{
+
+  font-style: 'Gill Sans';
+  text-align: center ;
+  padding-top: 1%;
+  color: black;
+  font-size: 500%;
+  font-weight: 200;
+  letter-spacing: 1px;
+
+}
+#about-body{
+  font-style: 'Gill Sans';
+  text-align: left ;
+  padding-left: 7%;
+  padding-right: 7%;
+  color: black;
+  font-size: 150%;
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+#about-body2{
+  font-style: 'Gill Sans';
+  text-align: left; ;
+  padding-left: 7%;
+  padding-right: 7%;
+  color: black;
+  font-size: 200%;
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+#icons{
+  padding-left: 7%;
+  z-index: 100;
+}
+
+#FAQQ{
+  background: #F0DCEF;
+  background-image: url('../img/FAQ-Background.svg');
+  background-attachment: fixed;
+  background-repeat:no-repeat;
+  background-position: 50%;
+  background-size: 41%;
+  overflow: visible;
+}
+
+.FAQ-body{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.FAQ-text-header{
+  font-family: "Gill Sans";
+  font-size: 150%;
+}
+.FAQ-text{
+  font-family: "Gill Sans";
+  font-size: 130%;
+  font-weight: 100;
+
+}
+#schedule{
+  background: #BF5700;
+  background-image: url('../img/longhorn.png');
+  background-attachment: fixed, scroll;
+  background-repeat:no-repeat;
+  background-position: 50%;
+  background-size: 41%;
+  overflow: visible;
+
+}
+#horns{
+  color: white;
+  padding-top: 5%;
+  text-align: center;
+  font-weight: 250;
+  font-size: 300%;
+}

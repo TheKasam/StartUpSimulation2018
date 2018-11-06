@@ -18,8 +18,11 @@
 html *
 {
    font-family: 'Raleway', sans-serif !important;
+   
 }
-
+body{
+  background-color: #F0DCEF;
+}
 #page-scroll{
   color: black;
   

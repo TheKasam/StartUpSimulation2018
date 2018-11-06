@@ -68,6 +68,14 @@ body{
 
 }
 @media  (max-width: 480px) {
+  .navbar-left{
+    order:0;
+  }
+
+  .navbar-header{
+    display: flex;
+    justify-content: center;
+  }
   #typed4{
     display: none;
     width: 0px;
@@ -94,22 +102,18 @@ body{
     height: 0px;
     display: none;
   }
-.typed-cursor{
-  display: none;
-}
+  .typed-cursor{
+    display: none;
+  }
 
   .row{
     font-size: 10px;
   }
-  .btn-signin{
-    /* margin-bottom: -100px; */
-  }
+
 }
 
 
-.row{
-  background-color: red;
-}
+
 
 #typed2{
   
@@ -169,7 +173,6 @@ body{
   text-align: left;
   padding-left: 10%;
   padding-top: 0;
-  background-color: blue;
 }
 
 

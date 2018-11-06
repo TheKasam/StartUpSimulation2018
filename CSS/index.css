@@ -15,15 +15,19 @@
     color: #FFC0CB;
 }
 
+html *
+{
+   font-family: 'Raleway', sans-serif !important;
+}
 
 #page-scroll{
   color: black;
-  font-family: 'Gill Sans';
+  
   letter-spacing: 1px;
 }
 .page_scroll{
   color: black;
-  font-family: 'Gill Sans';
+  
   letter-spacing: 1px;
 }
 
@@ -45,7 +49,7 @@
   --main-bg-color: brown;
 }
 #typed {
-    font-family: 'Gill Sans';
+    
     font-weight: 600;
     color: black;
     text-align: left;
@@ -95,7 +99,7 @@
   }
 }
 #typed2{
-  font-family: 'Gill Sans';
+  
   font-weight: 200;
   color: black;
   text-align: left;
@@ -103,7 +107,7 @@
   
 }
 #typed3{
-  font-family: 'Gill Sans';
+  
   font-weight: 200;
   color: black;
   text-align: left;
@@ -139,7 +143,6 @@
 }
 
 .btn-signin{
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 100;
   background-color: #bf5700;
   color: white;
@@ -164,7 +167,7 @@
 }
 #typed4-1{
   color: #BF5700;
-  font-family: "Gill Sans";
+  
   letter-spacing: 1px;
   font-weight: 250;
   font-size: 40px;
@@ -172,7 +175,6 @@
 }
 #typed4{
   color: black;
-  font-family: "Lato";
   letter-spacing: 1px;
   font-weight: 210;
     font-size: 45px;
@@ -273,11 +275,11 @@
 }
 
 .FAQ-text-header{
-  font-family: "Gill Sans";
+  
   font-size: 150%;
 }
 .FAQ-text{
-  font-family: "Gill Sans";
+  
   font-size: 130%;
   font-weight: 100;
 

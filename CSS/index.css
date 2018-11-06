@@ -67,7 +67,17 @@ body{
 
 
 }
-@media only screen and (max-width: 801px) {
+@media  (max-width: 480px) {
+  #typed4{
+    display: none;
+    width: 0px;
+    height: 0px;
+  }
+  #typed4-1{
+    display: none;
+    width: 0px;
+    height: 0px;
+  }
   #bob{
     font-size: 10px;
     height: 200px;
@@ -84,23 +94,23 @@ body{
     height: 0px;
     display: none;
   }
-  #typed4{
-  width: 0px;
-  height: 0px;
+.typed-cursor{
   display: none;
-  }
-  #typed4-1{
-  width: 0px;
-  height: 0px;
-  display: none;
-  }
+}
+
   .row{
     font-size: 10px;
   }
   .btn-signin{
-    margin-bottom: -100px;
+    /* margin-bottom: -100px; */
   }
 }
+
+
+.row{
+  background-color: red;
+}
+
 #typed2{
   
   font-weight: 200;
@@ -159,7 +169,7 @@ body{
   text-align: left;
   padding-left: 10%;
   padding-top: 0;
-
+  background-color: blue;
 }
 
 
